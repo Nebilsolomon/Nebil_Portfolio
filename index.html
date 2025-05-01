@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nebil Gokdemir Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1a1a1a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      background: #333333;
+      color: #ffffff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .header-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      font-size: 1.1rem;
+    }
+    .header-info p {
+      margin: 0;
+    }
+    .header-info a {
+      color: #1e90ff;
+      text-decoration: underline;
+    }
+    .header-info a:hover {
+      text-decoration: none;
+      color: #5f9ea0;
+    }
+    .top-buttons {
+      margin-top: 1.5rem;
+    }
+    .top-buttons a {
+      display: inline-block;
+      background-color: #1e90ff;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      margin: 0.3rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .top-buttons a:hover {
+      background-color: #5f9ea0;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+      background-color: #2e2e2e;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    h1, h2, h3 {
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+    .video-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      justify-items: center;
+    }
+    .video-container {
+      text-align: center;
+      background-color: #333333;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .video-container:hover {
+      transform: scale(1.03);
+    }
+    .video-container iframe {
+      width: 100%;
+      border-radius: 12px;
+      height: 300px;
+    }
+    .video-description {
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #d3d3d3;
+    }
+    .info-card {
+      background-color: #3b3b3b;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .info-card h3 {
+      margin-top: 0;
+      color: #1e90ff;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #1e90ff;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #5f9ea0;
+    }
+    footer {
+      background: #333333;
+      color: #ffffff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nebil Gokdemir</h1>
+    <div class="header-info">
+      <p>Email: <a href="mailto:nebilgokdemir1@gmail.com">nebilgokdemir1@gmail.com</a></p>
+      <p>Phone: <a href="tel:+16195519639">619-551-9639</a></p>
+      <p>GitHub: <a href="https://github.com/Nebilsolomon" target="_blank">Nebilsolomon</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/nebil-gokdemir" target="_blank">Nebil Gokdemir</a></p>
+    </div>
+    <div class="top-buttons">
+      <a href="#contact">Hire Me</a>
+      <a href="NebilResume.pdf" target="_blank">Download Resume</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="video-section">
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1YhVSMrE8xGGZmhvEeKmXzpzzQ7A8LEia/preview" allow="autoplay" allowfullscreen></iframe>
+        <div class="video-description">
+          <h3>Unreal Engine Shooter</h3>
+          <p>A first-person shooter prototype made with Unreal Engine, showcasing AI behaviors and advanced physics-based gameplay.</p>
+          <p><a href="https://github.com/Nebilsolomon/Shooter" target="_blank">View Code on GitHub</a></p>
+        </div>
+      </div>
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1zmE2dt2sWQXvoV5S1BMCJCxqnes0SPHi/preview" allow="autoplay" allowfullscreen></iframe>
+        <div class="video-description">
+          <h3>Blender Animation</h3>
+          <p>A 3D animation project created using Blender, showcasing character animation and environment design.</p>
+          <p><a href="https://github.com/Nebilsolomon/Animation-movie-with-Blender" target="_blank">View Blender on GitHub</a></p>
+        </div>
+      </div>
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/183X9hSmnCWjBhY7OFTpoJSpo8jzb6JNe/preview" allow="autoplay" allowfullscreen></iframe>
+        <div class="video-description">
+          <h3>PyGame Space Shooter</h3>
+          <p>A classic 2D space shooter game developed using Python and the Pygame library. Includes basic game mechanics.</p>
+          <p><a href="https://github.com/Nebilsolomon/Space_invaders_with_animatiom" target="_blank">View Code on GitHub</a></p>
+        </div>
+      </div>
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1r5x0YlElUeSyvqXkspGkpPsWRYpaWTIw/preview" allow="autoplay" allowfullscreen></iframe>
+        <div class="video-description">
+          <h3>Unity VR Game</h3>
+          <p>A VR game developed with Unity, focusing on immersive environments and interaction within virtual reality.</p>
+          <p><a href="https://github.com/Nebilsolomon/Capstone-Project-Oculus" target="_blank">View Code on GitHub</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="info-card">
+      <h3><i class="fas fa-user"></i> About Me</h3>
+      <p>
+        I'm Nebil Gokdemir, a passionate game developer with a strong foundation in computer science. 
+        I hold degrees from California State University, Fullerton and Santa Monica College. 
+        I specialize in creating immersive game experiences using Unreal Engine and Unity, 
+        with hands-on experience in programming languages like C++, C#, Java, and Python. 
+        I have a solid understanding of data structures, algorithms, object-oriented programming, and AI for games. 
+        My goal is to combine creativity with technical expertise to build fun, polished, and engaging games. 
+        I'm always learning, always building, and excited to collaborate with others who share a love for innovation and interactive storytelling.
+      </p>
+    </div>
+
+    <div class="info-card">
+      <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+      <p><strong>Bachelor's in Computer Science</strong>, California State University, Fullerton (Spring 2024)</p>
+      <p><strong>Associate Degree in Computer Science</strong>, Santa Monica College (2021)</p>
+    </div>
+
+    <div class="info-card">
+      <h3><i class="fas fa-cogs"></i> Skills</h3>
+      <ul>
+        <li><strong>Game Development:</strong> Unreal Engine, Unity</li>
+        <li><strong>Programming Languages:</strong> C++, Java, C#, Python, Swift, JavaScript</li>
+        <li><strong>AI Development:</strong> NPC behavior, pathfinding, decision-making</li>
+        <li><strong>Game Design:</strong> Game mechanics, level design, player experience</li>
+        <li><strong>Tools:</strong> Git, GitHub, Visual Studio, Blender (Basic 3D modeling)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mwpovypr" method="POST">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Nebil Gokdemir. All rights reserved.
+  </footer>
+</body>
+</html>
